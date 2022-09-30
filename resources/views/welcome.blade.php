@@ -6,7 +6,7 @@
         <div>
             <a href="#" class="flex md:hidden transition transform ease-in-out duration-200">
                 <span class="sr-only">Cargo App</span>
-                <img src="#" alt="" class="h-10 w-auto sm:h-10">
+                <img src="https://onewaycargo.net/img/logo-owc.png" alt="" class="h-10 w-auto sm:h-10">
             </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden justify-self-end">
@@ -43,10 +43,11 @@
     </div>
 </div>
 
-<div id="blackOverlayMobile" class="sm:hidden fixed z-10 inset-0 transition-opacity hidden">
+<div id="blackOverlayMobile" class="hidden sm:hidden fixed z-10 inset-0 transition-opacity" aria-hidden="true">
     <div class="absolute z-10 inset-0 bg-gray-500 opacity-75"></div>
 </div>
-<div class="fixed z-30 top-0 inset-x-0 p-2 md:hidden hidden">
+
+<div class="fixed hidden z-30 top-0 inset-x-0 p-2 md:hidden" id="mobileMenu">
     <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-yellow-600">
         <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
@@ -94,4 +95,5 @@
         </div>
     </div>
 </div>
+
 @endsection
