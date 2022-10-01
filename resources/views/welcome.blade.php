@@ -2,6 +2,26 @@
 
 @section('content')
 <div class="h-screen w-full flex flex-shrink-0 justify-center md:items-end overflow-hidden">
+    <div class="h-screen absolute z-10 inset-0 bg-gradient-to-b from-gray-700 via-blue-900 to-gray-700" style="mix-blend-mode: multiply">
+    </div>
+
+    <div class="absolute z-10 self-center flex flex-col items-center">
+        <p class="text-gray-300 text-3xl md:text-4xl text-center mx-6 font-bold">Mientras navegas nuestro sitio</p>
+        <p class="text-gray-300 text-3xl md:text-4xl text-center mx-6 font-bold">
+            hay
+            <strong class="text-yellow-500">
+                <span id="hero_counter">
+                    100
+                </span>
+                pedidos en movimiento
+            </strong>
+        </p>
+        <p class="text-gray-300 text-3xl md:text-4xl text-center mx-6 font-bold">en nuestro almacén</p>
+        <p class="text-gray-300 text-xl md:text-2xl text-center mx-6 font-thin">Uno de ellos puede ser tuyo en un click.</p>
+        <p class="pt-12">
+            <a href="#" class="py-4 px-8 rounded-md shadow-xl text-center text-lg font-medium text-white bg-yellow-600 transition transform ease-out duration-500 hover:scale-110 hover:bg-yellow-500 hover:text-gray-100">Registrate</a>
+        </p>
+    </div>
     <div class="absolute z-20 bg-white w-full overflow-hidden flex justify-between items-center py-4 px-8 md:justify-start">
         <div>
             <a href="#" class="flex md:hidden transition transform ease-in-out duration-200">
