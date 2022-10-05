@@ -258,6 +258,22 @@
             </div>
         </div>
     </div>
+    <div class="bg-gray-800 py-4">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-18 lg:px-8 lg:flex lg:items-center lg:justify-between">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-100 md:text-4xl">
+                <span class="block text-center lg:text-left">Calcula tú mismo</span>
+                <span class="block text-yellow-600 text-center lg:text-left">el valor de envío de tus compras online</span>
+            </h2>
+            <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 justify-center lg:justify-start">
+                <div class="inline-flex rounded-md shadow-xl">
+                    <a href="" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 transition transform ease-out focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2">
+
+                        Calculadora de envíos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 @endsection
