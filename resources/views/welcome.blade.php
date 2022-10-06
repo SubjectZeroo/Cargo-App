@@ -274,6 +274,73 @@
             </div>
         </div>
     </div>
+    <div class="pt-20 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800">
+                    ¿Por qué es tan confiable enviar tu carga con nosotros?
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
+                    Recibe asesoría, atención y gestión logística en todo momento
+                </p>
+            </div>
+            <div class="mt-20">
+                <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+                    <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+                        <div>
+                            <div class="flex items-center justify-center h-16 w-16 rounded-md bg-gray-800 text-white mx-auto">
+                                <svg class="w-9 h-9 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
+                            </div>
+                            <div class="mt-5">
+                                <dt class="text-lg leading-6  text-center text-gray-800 font-bold">
+                                    Rápido proceso de compra
+                                </dt>
+                                <dd class="mt-2 text-base text-center text-gray-600">
+                                    Ingresa en tu tienda favorita, selecciona tus productos al carrito y paga tu compra
+                                </dd>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-center justify-center h-16 w-16 rounded-md bg-gray-800 text-white mx-auto">
+                                <svg class="w-9 h-9 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                            </div>
+                            <div class="mt-5">
+                                <dt class="text-lg leading-6  text-center text-gray-800 font-bold">
+                                    Asesoría y gestión dedicada
+                                </dt>
+                                <dd class="mt-2 text-base text-center text-gray-600">
+                                    Nuestro equipo online te acompañará desde antes de efectuar tu compra hasta el momento en que llegue a tus manos
+                                </dd>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-center justify-center h-16 w-16 rounded-md bg-gray-800 text-white mx-auto">
+                                <svg class="w-9 h-9 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            </div>
+                            <div class="mt-5">
+                                <dt class="text-lg leading-6  text-center text-gray-800 font-bold">
+                                    En tus manos, seguro y confiable
+                                </dt>
+                                <dd class="mt-2 text-base text-center text-gray-600">
+                                    Llevamos tu carga a tu destino en modalidad de retiro, delivery y encomienda nacional de manera rápida y segura
+                                </dd>
+                            </div>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+            <div class="mx-auto mt-6 p-4 flex flex-col justify-center items-center space-y-4">
+                <p class="mt-4 max-w-2xl text-xl text-gray-800 mx-auto font-medium text-center">
+                    Conoce nuestras tarifas para toda Venezuela
+                </p>
+                <div class="shadow-xl transition transform ease-out h-auto mt-4">
+                    <a href="" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 transition transform ease-out focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-offset-2">
+                        Ver tarifas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 @endsection
