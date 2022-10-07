@@ -341,6 +341,74 @@
             </div>
         </div>
     </div>
+    <div class="pt-20 pb-12 bg-fixed bg-contain bg-no-repeat bg-center bg-gray-300" style="background-image: url(https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 80%);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-extrabold text-gray-100">
+                    Así como nuestras cargas, nosotros no paramos de movernos
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-yellow-600 lg:mx-auto">
+                    Seguimos creciendo por ti y por la calidad de tu gestión de envíos
+                </p>
+            </div>
+        </div>
+        <div class="mt-10 pb-12 sm:pb-16">
+            <div class="relative">
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="max-w-7xl mx-auto">
+                        <dl class="rounded-xl bg-gray-800 shadow-xl lg:grid lg:grid-cols-3">
+                            <div class="flex justify-center items-center p-6 text-center border-0 space-x-4 lg:space-x-0 border-r border-gray-600">
+                                <div>
+                                    <svg class="w-auto h-14 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                </div>
+                                <div class="flex flex-col items-center justify-center p-2">
+                                    <dt class="order-2 mt-2 text-lg leading-6 font-thin text-gray-200">
+
+                                        de trayectoria en EEUU y Venezuela
+                                    </dt>
+                                    <dd class="order-1 text-xl font-extrabold text-gray-200">
+                                        +
+                                        <span class="text-4xl">9</span>
+                                        años
+                                    </dd>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center p-6 text-center border-0 space-x-4 lg:space-x-0 border-r border-gray-600">
+                                <div>
+                                    <svg class="w-auto h-16 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"></path></svg>
+                                </div>
+                                <div class="flex flex-col items-center justify-center p-2">
+                                    <dt class="order-2 mt-2 text-lg leading-6 font-thin text-gray-200">
+                                        de libras transportadas
+                                    </dt>
+                                    <dd class="order-1 text-xl font-extrabold text-gray-200">
+                                        +
+                                        <span class="text-4xl">1.000.000</span>
+                                        lb
+                                    </dd>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center p-6 text-center border-0 space-x-4 lg:space-x-0 border-r border-gray-600">
+                                <div>
+                                    <svg class="w-auto h-14 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                </div>
+                                <div class="flex flex-col items-center justify-center p-2">
+                                    <dt class="order-2 mt-2 text-lg leading-6 font-thin text-gray-200">
+                                        con entrega directa
+                                    </dt>
+                                    <dd class="order-1 text-xl font-extrabold text-gray-200">
+                                        +
+                                        <span class="text-4xl">16</span>
+                                        ciudades
+                                    </dd>
+                                </div>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 @endsection
