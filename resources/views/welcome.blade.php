@@ -341,7 +341,7 @@
             </div>
         </div>
     </div>
-    <div class="pt-20 pb-12 bg-fixed bg-contain bg-no-repeat bg-center bg-gray-300" style="background-image: url(https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 80%);">
+    <div target="_blank" class="pt-20 pb-12 bg-fixed bg-contain bg-no-repeat bg-center bg-gray-300" style="background-image: url(https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 80%);">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-3xl font-extrabold text-gray-100">
@@ -450,6 +450,28 @@
                             </div>
                         </form>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-12 bg-gradient-to-b from-white via-gray-500 to-gray-800">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-xl shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+                <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+                    <div class="lg:self-center">
+                        <h2 class="text-3xl font-extrabold text-gray-800">
+                            <span class="block">Ve un paso adelante en la gestión de tus compras</span>
+                        </h2>
+                        <p class="mt-4 text-lg leading-6 text-yellow-600">
+                            Descarga nuestro listado de productos frecuentes y conoce el valor estimado de su envío a Venezuela
+                        </p>
+                        <a href="" class="cursor-pointer mt-8 bg-gray-800 border border-transparent rounded-md shadow-xl px-5 py-3 inline-flex items-center text-base font-medium text-white transition transform ease-out hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 focus:ring-offset-white">
+                            Descargar
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/img/items.jpg" alt="Listado" title="" style="">
                 </div>
             </div>
         </div>
