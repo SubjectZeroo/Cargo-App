@@ -409,6 +409,51 @@
             </div>
         </div>
     </div>
+    <div class="pt-20 pb-12 bg-white">
+        <div class="relative sm:py-16">
+            <div class="hidden sm:block">
+                <svg class="absolute top-6 left-1/2" width="404" height="392" fill="none" viewBox="0 0 450 450">
+                    <defs>
+                    <pattern id="8228f071-bcee-4ec8-905a-2a059a2cc4fb" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="4" height="4" class="text-gray-500" fill="currentColor"></rect>
+                    </pattern>
+                    </defs>
+                    <rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)"></rect>
+                    </svg>
+            </div>
+            <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+                <div class="relative rounded-xl px-6 py-10 bg-yellow-600 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+                    <div class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
+                        <svg class="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360">
+                            <path class="text-yellow-500 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"></path>
+                            <path class="text-yellow-700 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"></path>
+                            </svg>
+                    </div>
+                    <div class="relative">
+                        <div class="text-center">
+                            <h2 class="text-3xl font-extrabold text-white tracking-tight">
+                                Rastrea tu carga</h2>
+                            <p class="mt-6 mx-auto max-w-2xl text-lg text-yellow-200">
+                                Entra a tu OneWayID y no pierdas de vista cada detalle</p>
+                        </div>
+                        <form action="" class="mt-12 sm:mx-auto sm:max-w-3xl sm:flex">
+                            <div class="min-w-0 flex-1">
+                                <label for="" class="sr-only">Email</label>
+                                <input placeholder="Email" type="text" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-xl focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-yellow-600">
+                            </div>
+                            <div class="min-w-0 flex-1 mt-4 sm:mt-0 sm:ml-3">
+                                <label for="" class="sr-only">Contraseña</label>
+                                <input placeholder="Contraseña" type="password" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-xl focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-yellow-600">
+                            </div>
+                            <div class="mt-4 sm:mt-0 sm:ml-3">
+                                <input value="Iniciar sesión" type="submit" class="block w-full rounded-md border border-transparent px-5 py-3 bg-gray-800 text-base font-medium text-white shadow-xl hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-yellow-600 sm:px-10">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 @endsection
