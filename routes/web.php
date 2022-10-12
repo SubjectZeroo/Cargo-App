@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('principal.index');
+})->name('/');
+Route::get('/tarifas', [App\Http\Controllers\RateController::class, 'index'])->name('tarifas');
+Route::get('/servicios', [App\Http\Controllers\ServiceController::class, 'index'])->name('servicios');
+Route::get('/contacto', [App\Http\Controllers\ContactController::class, 'index'])->name('contacto');
