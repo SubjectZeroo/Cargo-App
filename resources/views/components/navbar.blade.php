@@ -19,16 +19,16 @@
                         <span class="sr-only"></span>
                         <img class="h-10 w-auto" src="{{ asset('images/logo.png') }}" alt="" style="width: 5em; height:5em">
                     </a>
-                    <a href="{{ route('tarifas') }}" class=" {{ request()->routeIs('tarifas') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out   ">
+                    <a href="{{ route('tarifas') }}" class=" {{ request()->routeIs('tarifas') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         TARIFAS
                     </a>
-                    <a href="{{ route('servicios') }}" class="{{ request()->routeIs('servicios') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out  text-gray-600 ">
+                    <a href="{{ route('servicios') }}" class="{{ request()->routeIs('servicios') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         SERVICIOS
                     </a>
                     <a href="#" class="text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out  text-gray-600 ">
                         CARGOID
                     </a>
-                    <a href="{{ route('contacto') }}" class="{{ request()->routeIs('contacto') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out  text-gray-600 ">
+                    <a href="{{ route('contacto') }}" class="{{ request()->routeIs('contacto') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         CONTACTO
                     </a>
                     <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-yellow-600 text-center tracking-widest transition transform ease-out shadow-md hover:bg-yellow-500">

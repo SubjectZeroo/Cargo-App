@@ -8,6 +8,6 @@ class RateController extends Controller
 {
     public function index(Request $request)
     {
-        return view('contact.index');
+        return view('rates.index');
     }
 }
