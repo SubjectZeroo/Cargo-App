@@ -8,6 +8,6 @@ class ServiceController extends Controller
 {
     public function index(Request $request)
     {
-        return view('contact.index');
+        return view('services.index');
     }
 }
