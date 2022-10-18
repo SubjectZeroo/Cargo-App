@@ -419,6 +419,66 @@
             </div>
         </div>
     </div>
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 bg-gray-100 py-10">
+        <div class="max-w-md mx-auto lg:max-w-5xl flex flex-col space-y-8">
+            <div class="mx-auto w-full flex flex-col items-center">
+                <h2 class="mt-2 text-3xl font-extrabold text-yellow-600 tracking-tight">
+                    Calculadora de envíos
+                </h2>
+                <p class="mt-4 max-w-prose mx-auto text-xl text-gray-500">
+                    Estima tú mismo el valor de tu carga
+                </p>
+            </div>
+            <div class="mx-auto w-full lg:space-y-0 flex flex-col justify-evenly space-y-10 lg:space-y-0  space-x-0 lg:space-x-8 lg:inline-flex lg:flex-row pt-12">
+                <div class="pt-6 w-full">
+                    <div class="flow-root bg-white rounded-xl pb-8 shadow-none sm:shadow-lg h-full w-full mx-auto">
+                        <div class="-mt-6 space-y-6 px-6 h-full">
+                            <div class="w-full inline-flex items-center justify-center">
+                                <span class="inline-flex items-center justify-center p-3 bg-yellow-600 rounded-md shadow-lg">
+                                    <svg class="w-7 h-7" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+                                </span>
+                            </div>
+                            <div class="w-full">
+                                <p class="text-lg text-gray-700 font-medium text-center">
+                                    Ingresa los datos de tu paquete
+                                </p>
+                            </div>
+                            <div class="grid grid-cols-1 xl:grid-cols-2 grid-rows-2 gap-0 xl:gap-6 xl:py-10 w-full ">
+                                <div class="w-full col-span-1 px-0 xl:px-4">
+                                    <p class="block text-base font-light text-gray-700">
+                                        Peso (libras)
+                                    </p>
+                                    <input type="number" name="peso" id="peso" value="1" class="focus:ring-yellow-500 focus:border-yellow-500 sm:text-base my-2 shadow-md rounded-md bg-gray-100 p-2 w-full calcinput">
+                                </div>
+                                <div class="w-full col-span-1 px-0 xl:px-4">
+                                    <p class="block text-base font-light text-gray-700">
+                                        Largo (pulgadas)
+                                    </p>
+                                    <input type="number" name="largo" id="largo" value="1" class="focus:ring-yellow-500 focus:border-yellow-500 sm:text-base my-2 shadow-md rounded-md bg-gray-100 p-2 w-full calcinput">
+                                </div>
+                                <div class="w-full col-span-1 px-0 xl:px-4">
+                                    <p class="block text-base font-light text-gray-700">
+                                        Ancho (pulgadas)
+                                    </p>
+                                    <input type="number" name="ancho" id="ancho" value="1" class="focus:ring-yellow-500 focus:border-yellow-500 sm:text-base my-2 shadow-md rounded-md bg-gray-100 p-2 w-full calcinput">
+                                </div>
+                                <div class="w-full col-span-1 px-0 xl:px-4">
+                                    <p class="block text-base font-light text-gray-700">
+
+                                        Alto (pulgadas)
+                                    </p>
+                                    <input type="number" name="alto" id="alto" value="1" class="focus:ring-yellow-500 focus:border-yellow-500 sm:text-base my-2 shadow-md rounded-md bg-gray-100 p-2 w-full calcinput">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-6 w-full">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <x-footer></x-footer>
 @endsection
