@@ -464,7 +464,6 @@
                                 </div>
                                 <div class="w-full col-span-1 px-0 xl:px-4">
                                     <p class="block text-base font-light text-gray-700">
-
                                         Alto (pulgadas)
                                     </p>
                                     <input type="number" name="alto" id="alto" value="1" class="focus:ring-yellow-500 focus:border-yellow-500 sm:text-base my-2 shadow-md rounded-md bg-gray-100 p-2 w-full calcinput">
@@ -474,8 +473,83 @@
                     </div>
                 </div>
                 <div class="pt-6 w-full">
-
+                    <div class="flow-root bg-white rounded-xl pb-8 shadow-none sm:shadow-lg h-full w-full mx-auto">
+                        <div class="-mt-6 space-y-6 px-6">
+                            <div class="w-full inline-flex items-center justify-center">
+                                <span class="inline-flex items-center justify-center p-3 bg-yellow-600 rounded-md shadow-lg">
+                                    <svg class="w-8 h-8" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                </span>
+                            </div>
+                            <div class="w-full col-span-2">
+                                <p class="text-lg text-gray-700 font-medium text-center">
+                                    Costos estimados
+                                </p>
+                            </div>
+                            <div class="grid grid-rows-2 grid-cols-2 gap-5 lg:gap-8 w-full h-full">
+                                <div class="p-6 space-y-4 flex flex-col items-center justify-center w-full bg-gray-100 border-gray-300 rounded-md shadow-md">
+                                    <p class="text-base font-light text-gray-700 text-center">
+                                        Peso Final
+                                    </p>
+                                    <div class="flex items-baseline">
+                                        <div id="librascalculadas" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                            1.00
+                                        </div>
+                                        <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
+                                            /lb
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="p-6 space-y-4 flex flex-col items-center justify-center w-full bg-gray-100 border-gray-300 rounded-md shadow-md">
+                                    <p class="text-base font-light text-gray-700 text-center">
+                                        Pie cúbico
+                                    </p>
+                                    <div class="flex items-baseline">
+                                        <div id="piescalculados" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                            0.00
+                                        </div>
+                                        <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
+                                            /ft
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="p-6 space-y-4 flex flex-col items-center justify-center w-full bg-gray-100 border-gray-300 rounded-md shadow-md">
+                                    <p class="text-base font-light text-gray-700 text-center">
+                                        Envío aéreo
+                                    </p>
+                                    <div class="flex items-baseline">
+                                        <div id="aereocalculado" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                            4.10
+                                        </div>
+                                        <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
+                                            /$
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="p-6 space-y-4 flex flex-col items-center justify-center w-full bg-gray-100 border-gray-300 rounded-md shadow-md">
+                                    <p class="text-base font-light text-gray-700 text-center">
+                                        Envío maritimo
+                                    </p>
+                                    <div class="flex items-baseline">
+                                        <div id="maritimocalculado" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                            30.00
+                                        </div>
+                                        <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
+                                            /$
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="mx-auto w-full h-auto pb-6">
+                <p class="text-sm text-gray-500 font-light text-justify">
+                    <span class="font-medium">
+                        IMPORTANTE:
+                    </span>
+                    Muchas veces el proveedor proporciona las dimensiones del producto y no las dimensiones de la caja en la que embalan el producto, en este sentido, las dimensiones serán tomadas de la caja en la que se encuentran embalados sus productos. No obstante, ponemos a tu disposición un listado de productos frecuentes que nuestra distinguida clientela trae usualmente a través de nuestro servicio aéreo junto con un estimado de su equivalente en libras.
+                </p>
             </div>
         </div>
     </div>
