@@ -25,13 +25,13 @@
                     <a href="{{ route('servicios') }}" class="{{ request()->routeIs('servicios') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         SERVICIOS
                     </a>
-                    <a href="#" class="text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out  text-gray-600 ">
+                    <a href="{{ route('login') }}" class="text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out  text-gray-600 ">
                         CARGOID
                     </a>
                     <a href="{{ route('contacto') }}" class="{{ request()->routeIs('contacto') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         CONTACTO
                     </a>
-                    <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-yellow-600 text-center tracking-widest transition transform ease-out shadow-md hover:bg-yellow-500">
+                    <a href="{{ route('register') }}" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-yellow-600 text-center tracking-widest transition transform ease-out shadow-md hover:bg-yellow-500">
                         Registrate
                     </a>
                 </nav>
@@ -80,10 +80,10 @@
             </div>
         </div>
         <div class="flex items-center justify-between py-4 px-8 bg-gray-900 rounded-b-lg space-x-2">
-            <a href="#" class="text-base font-medium text-gray-100 hover:text-yellow-500 tracking-wider transition transform duration-200">
-                CARGOsID
+            <a href="{{ route('login') }}" class="text-base font-medium text-gray-100 hover:text-yellow-500 tracking-wider transition transform duration-200">
+                CARGOID
             </a>
-            <a href="#" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-500 tracking-wider transition transform duration-200 hover:scale-105">
+            <a href="{{ route('register') }}" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-500 tracking-wider transition transform duration-200 hover:scale-105">
                 REGISTRATE
             </a>
         </div>
