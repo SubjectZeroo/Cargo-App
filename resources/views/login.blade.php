@@ -12,15 +12,21 @@
                 <h1 class="text-2xl font-semibold tracking-wider text-yellow-600 capitalize ">
                     Inicia sesión con tu CargoID.
                 </h1>
+                <p class="text-sm font-semibold mt-2 pt-1 mb-0">
+                    ¿Aún no tienes un CargoID?
+                    <a
+                      href="{{ route('register') }}"
+                      class="text-yellow-600 hover:text-yellow-500 focus:text-yellow-700 transition duration-200 ease-in-out"
+                      >
+                      Regístrate y obtén el tuyo</a
+                    >
+                </p>
                 <form>
-                    <!-- Email input -->
                     <div class="mb-6 mt-4">
                         <input type="text" class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                             id="exampleFormControlInput2"
                             placeholder="Correo Electronico"/>
                     </div>
-
-                    <!-- Password input -->
                     <div class="mb-6">
                       <input
                         type="password"
@@ -52,15 +58,7 @@
 
                             Iniciar sesión
                       </button>
-                      <p class="text-sm font-semibold mt-2 pt-1 mb-0">
-                        ¿Aún no tienes un CargoID?
-                        <a
-                          href="{{ route('register') }}"
-                          class="text-yellow-600 hover:text-yellow-500 focus:text-yellow-700 transition duration-200 ease-in-out"
-                          >
-                          Regístrate y obtén el tuyo</a
-                        >
-                      </p>
+
                     </div>
                   </form>
             </div>
