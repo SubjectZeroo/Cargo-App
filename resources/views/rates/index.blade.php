@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-guest-layout>
 <x-navbar></x-navbar>
 <main class="z-40">
     <div class="mx-auto py-8 space-y-4 bg-gray-800 pt-20">
@@ -555,4 +553,4 @@
     </div>
 </main>
 <x-footer></x-footer>
-@endsection
+</x-guest-layout>

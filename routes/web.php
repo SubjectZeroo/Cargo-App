@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\RateController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,14 +20,15 @@ Route::get('/', function () {
     return view('principal.index');
 })->name('/');
 
-Route::get('/login', function () {
-    return view('login');
-})->name('login');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/register', function () {
-    return view('register');
-})->name('register');
 
-Route::get('/tarifas', [App\Http\Controllers\RateController::class, 'index'])->name('tarifas');
-Route::get('/servicios', [App\Http\Controllers\ServiceController::class, 'index'])->name('servicios');
-Route::get('/contacto', [App\Http\Controllers\ContactController::class, 'index'])->name('contacto');
+Route::get('tarifas', [RateController::class, 'index'])->name('tarifas');
+
+Route::get('contacto', [ContactController::class, 'index'])->name('contacto');
+
+Route::get('servicios', [ServiceController::class, 'index'])->name('servicios');
+
+require __DIR__.'/auth.php';

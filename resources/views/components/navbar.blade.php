@@ -25,7 +25,7 @@
                     <a href="{{ route('servicios') }}" class="{{ request()->routeIs('servicios') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         SERVICIOS
                     </a>
-                    <a href="{{ route('login') }}" class="text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out  text-gray-600 ">
+                    <a href="{{ route('login') }}" class="{{ request()->routeIs('login') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         CARGOID
                     </a>
                     <a href="{{ route('contacto') }}" class="{{ request()->routeIs('contacto') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
