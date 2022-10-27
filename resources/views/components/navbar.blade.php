@@ -1,8 +1,8 @@
-<div class="{{ request()->routeIs('/') ? 'absolute z-20' : ''}}  bg-white w-full overflow-hidden flex justify-between items-center py-4 px-8 md:justify-start">
+<div class="{{ request()->routeIs('/') ? 'absolute z-20 overflow-hidden' : ''}}  bg-white w-full  flex justify-between items-center py-4 px-8 md:justify-start">
             <div>
                 <a href="{{ route('/') }}" class="flex md:hidden transition transform ease-in-out duration-200">
                     <span class="sr-only">Cargo App</span>
-                    <img src="{{ asset('images/logo.png') }}" alt="" class="h-10 w-auto sm:h-10" style="width: 5em; height:5em">
+                    <img src="{{ asset('images/logo.png') }}" alt="" class="h-10 w-auto sm:h-10">
                 </a>
             </div>
             <div class="-mr-2 -my-2 md:hidden justify-self-end">
@@ -17,7 +17,7 @@
                 <nav class="flex w-full justify-between items-center">
                     <a href="{{ route('/') }}" class="hidden sm:flex transition transform ease-in-out duration-200 -ml-2">
                         <span class="sr-only"></span>
-                        <img class="h-10 w-auto" src="{{ asset('images/logo.png') }}" alt="" style="width: 5em; height:5em">
+                        <img class="h-10 w-auto" src="{{ asset('images/logo.png') }}" alt="">
                     </a>
                     <a href="{{ route('tarifas') }}" class=" {{ request()->routeIs('tarifas') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         TARIFAS
@@ -31,9 +31,40 @@
                     <a href="{{ route('contacto') }}" class="{{ request()->routeIs('contacto') ? 'text-yellow-600' : 'text-gray-600'}} text-base font-medium hover:text-yellow-600 text-center tracking-widest transition transform ease-out">
                         CONTACTO
                     </a>
-                    <a href="{{ route('register') }}" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-yellow-600 text-center tracking-widest transition transform ease-out shadow-md hover:bg-yellow-500">
-                        Registrate
-                    </a>
+                    @if (Auth::check())
+                        <x-dropdown align="right" width="48">
+
+                            <x-slot name="trigger">
+                                <button class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
+                                    <div>{{ Auth::user()->name }}</div>
+
+                                    <div class="ml-1">
+                                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </button>
+                            </x-slot>
+
+                            <x-slot name="content">
+                                <!-- Authentication -->
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+
+                                    <x-dropdown-link :href="route('logout')"
+                                            onclick="event.preventDefault();
+                                                        this.closest('form').submit();">
+                                        {{ __('Log Out') }}
+                                    </x-dropdown-link>
+                                </form>
+                            </x-slot>
+                        </x-dropdown>
+                    @else
+                            <a href="{{ route('register') }}" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-yellow-600 text-center tracking-widest transition transform ease-out shadow-md hover:bg-yellow-500">
+                                Registrate
+                            </a>
+                    @endif
+
                 </nav>
             </div>
         </div>

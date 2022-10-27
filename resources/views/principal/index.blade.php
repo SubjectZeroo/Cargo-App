@@ -18,7 +18,7 @@
                 <p class="text-gray-300 text-3xl md:text-4xl text-center mx-6 font-bold">en nuestro almacén</p>
                 <p class="text-gray-300 text-xl md:text-2xl text-center mx-6 font-thin">Uno de ellos puede ser tuyo en un click.</p>
                 <p class="pt-12">
-                    <a href="#" class="py-4 px-8 rounded-md shadow-xl text-center text-lg font-medium text-white bg-yellow-600 transition transform ease-out duration-500 hover:scale-110 hover:bg-yellow-500 hover:text-gray-100">Registrate</a>
+                    <a href="{{ route('register') }}" class="py-4 px-8 rounded-md shadow-xl text-center text-lg font-medium text-white bg-yellow-600 transition transform ease-out duration-500 hover:scale-110 hover:bg-yellow-500 hover:text-gray-100">Registrate</a>
                 </p>
             </div>
 
@@ -175,7 +175,7 @@
                 </h2>
                 <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 justify-center lg:justify-start">
                     <div class="inline-flex rounded-md shadow-xl">
-                        <a href="" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 transition transform ease-out focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2">
+                        <a href="{{ route('tarifas') }}" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 transition transform ease-out focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2">
 
                             Calculadora de envíos
                         </a>
@@ -243,7 +243,7 @@
                         Conoce nuestras tarifas para toda Venezuela
                     </p>
                     <div class="shadow-xl transition transform ease-out h-auto mt-4">
-                        <a href="" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 transition transform ease-out focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-offset-2">
+                        <a href="{{ route('tarifas') }}" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 transition transform ease-out focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-offset-2">
                             Ver tarifas
                         </a>
                     </div>

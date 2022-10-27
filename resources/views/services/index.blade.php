@@ -1,7 +1,7 @@
 
 <x-guest-layout>
     <x-navbar></x-navbar>
-    <main class="z-40">
+    <main>
         <div class="bg-gray-100">
             <div class="mx-auto py-8 space-y-4 pt-20">
                 <p class="mt-2 text-3xl font-extrabold text-yellow-600 tracking-tight text-center">
