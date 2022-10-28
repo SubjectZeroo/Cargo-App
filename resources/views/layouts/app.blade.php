@@ -15,7 +15,7 @@
     </head>
     <body class="font-sans antialiased">
         <x-navbar></x-navbar>
-        <div class="min-h-screen bg-gray-100">
+
             {{-- @include('layouts.navigation') --}}
 
             <!-- Page Heading -->
@@ -28,10 +28,13 @@
             @endif --}}
 
             <!-- Page Content -->
-            <main>
-                {{ $slot }}
+            <main class="z-40">
+                <div class="min-h-screen bg-gray-100">
+
+                    {{ $slot }}
+                </div>
             </main>
-        </div>
+
         <x-footer></x-footer>
     </body>
 
