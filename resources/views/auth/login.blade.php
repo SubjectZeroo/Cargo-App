@@ -102,21 +102,24 @@
 
                           <label for="remember_me" class="inline-flex items-center">
                             <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
-                            <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+                            <span class="ml-2 text-sm text-gray-600">{{ __('Recuerdame') }}</span>
                         </label>
                           {{-- <a href="#!" class="text-gray-800">Olvidaste tu password?</a> --}}
                           @if (Route::has('password.request'))
                             <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                                {{ __('Forgot your password?') }}
+                                {{ __('Olvidaste tu password?') }}
                             </a>
                         @endif
                         </div>
 
                         <div class="text-center lg:text-left">
 
-                          <x-primary-button   class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-500 tracking-wider transition transform duration-200 hover:scale-105">
+                          {{-- <x-primary-button   class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-500 tracking-wider transition transform duration-200 hover:scale-105">
                             {{ __('Log in') }}
-                        </x-primary-button>
+                        </x-primary-button> --}}
+                        <button type="button" class="g-recaptcha group relative w-full flex justify-center py-2 px-4 border border-transparent text-lg font-medium rounded-md text-white tracking-wider bg-yellow-600 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 shadow-md" >
+                            {{ __('Log in') }}
+                        </button>
                         </div>
                       </form>
                 </div>
