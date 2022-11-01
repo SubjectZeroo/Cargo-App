@@ -37,6 +37,7 @@
             }
 
         </script>
+
             {!! htmlScriptTagJsApi([
 
             'callback_then' => 'callbackThen',
