@@ -7,8 +7,13 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
+                // 'resources/js/utilities/menu-btn-toggle.js',
             ],
             refresh: true,
         }),
     ],
+    server: {
+        host: true,
+        port: 8080
+    }
 });

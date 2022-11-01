@@ -6,7 +6,7 @@
                 </a>
             </div>
             <div class="-mr-2 -my-2 md:hidden justify-self-end">
-                <button type="button" class="bg-white rounded-md inline-flex items-center justify-center p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
+                <button  type="button" class="openMobileMenu bg-white rounded-md inline-flex items-center justify-center p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
                     <span class="sr-only">Open Menu</span>
                     <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -68,11 +68,11 @@
                 </nav>
             </div>
         </div>
-<div id="blackOverlayMobile" class="hidden sm:hidden fixed z-10 inset-0 transition-opacity" aria-hidden="true">
+<div id="blackOverlayMobile" class="sm:hidden fixed z-10 inset-0 transition-opacity hidden" aria-hidden="true">
     <div class="absolute z-10 inset-0 bg-gray-500 opacity-75"></div>
 </div>
 
-<div class="fixed hidden z-30 top-0 inset-x-0 p-2 md:hidden" id="mobileMenu">
+<div class="fixed z-30 top-0 inset-x-0 p-2 md:hidden hidden" id="mobileMenu">
     <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-yellow-600">
         <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
@@ -82,7 +82,7 @@
                     </a>
                 </div>
                 <div class="-mr-2">
-                    <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
+                    <button type="button" class="closeMobileMenu bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
                         <span class="sr-only">Close menu</span>
                         <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
