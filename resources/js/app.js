@@ -7,3 +7,4 @@ window.Alpine = Alpine;
 Alpine.start();
 
 import './utilities/menu-btn-toggle';
+import './utilities/counter-hero';
