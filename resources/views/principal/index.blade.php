@@ -10,7 +10,7 @@
                     hay
                     <strong class="text-yellow-500">
                         <span id="hero_counter">
-                            100
+
                         </span>
                         pedidos en movimiento
                     </strong>
