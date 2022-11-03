@@ -250,7 +250,7 @@
                 </div>
             </div>
         </div>
-        <div target="_blank" class="pt-20 pb-12 bg-fixed bg-contain bg-no-repeat bg-center bg-gray-300" style="background-image: url(https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 80%);">
+        <div id="statsSection"  class="statsSection pt-20 pb-12 bg-fixed bg-contain bg-no-repeat bg-center bg-gray-300" style="background-image: url(https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 80%);">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl mx-auto text-center">
                     <h2 class="text-3xl font-extrabold text-gray-100">
@@ -277,7 +277,7 @@
                                         </dt>
                                         <dd class="order-1 text-xl font-extrabold text-gray-200">
                                             +
-                                            <span class="text-4xl">9</span>
+                                            <span id="counterAnos" class="text-4xl">0</span>
                                             años
                                         </dd>
                                     </div>
@@ -292,7 +292,7 @@
                                         </dt>
                                         <dd class="order-1 text-xl font-extrabold text-gray-200">
                                             +
-                                            <span class="text-4xl">1.000.000</span>
+                                            <span id="counterLibras" class="text-4xl">0</span>
                                             lb
                                         </dd>
                                     </div>
@@ -307,7 +307,7 @@
                                         </dt>
                                         <dd class="order-1 text-xl font-extrabold text-gray-200">
                                             +
-                                            <span class="text-4xl">16</span>
+                                            <span id="counterCiudades" class="text-4xl">0</span>
                                             ciudades
                                         </dd>
                                     </div>
