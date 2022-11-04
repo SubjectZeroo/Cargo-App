@@ -24,11 +24,11 @@
                             </div>
                             <div class="hidden sm:block">
                                 <div class="rounded-xl shadow-md flex">
-                                    <div class="cursor-pointer text-gray-800 min-w-0 flex-1 rounded-l-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white bg-yellow-100 hover:bg-yellow-50 border-b-4 border-yellow-600">
+                                    <div id="regionCentralSelector"  class="regionCentral cursor-pointer text-gray-800 min-w-0 flex-1 rounded-l-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white hover:bg-yellow-50 border-b-4 border-yellow-600">
                                         Región central
                                     </div>
                                     <div class="w-0.5 bg-gray-200 "></div>
-                                    <div class="cursor-pointer text-gray-800 min-w-0 flex-1 rounded-r-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white border-b-4 hover:bg-yellow-50">
+                                    <div id="restoDelPaisSelector" class="restoDelPais cursor-pointer text-gray-800 min-w-0 flex-1 rounded-r-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white border-b-4 hover:bg-yellow-50">
                                         Resto del país
                                     </div>
                                 </div>
