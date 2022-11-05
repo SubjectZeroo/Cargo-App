@@ -23,14 +23,14 @@
                                 </select>
                             </div>
                             <div class="hidden sm:block">
-                                <div class="rounded-xl shadow-md flex">
-                                    <div id="regionCentralSelector"  class="regionCentral cursor-pointer text-gray-800 min-w-0 flex-1 rounded-l-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white hover:bg-yellow-50 border-b-4 border-yellow-600">
+                                <div class="rounded-xl shadow-md flex wrapper">
+                                    <button id="regionCentralSelector" data-id="regionCentral"  class="tab-button cursor-pointer text-gray-800 min-w-0 flex-1 rounded-l-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white hover:bg-yellow-50 border-b-4 border-yellow-600">
                                         Región central
-                                    </div>
+                                    </button>
                                     <div class="w-0.5 bg-gray-200 "></div>
-                                    <div id="restoDelPaisSelector" class="restoDelPais cursor-pointer text-gray-800 min-w-0 flex-1 rounded-r-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white border-b-4 hover:bg-yellow-50">
+                                    <button id="restoDelPaisSelector" data-id="regionResto" class="tab-button cursor-pointer text-gray-800 min-w-0 flex-1 rounded-r-xl overflow-hidden py-4 px-4 text-md font-medium text-center bg-white border-b-4 hover:bg-yellow-50">
                                         Resto del país
-                                    </div>
+                                    </button>
                                 </div>
                                 <div class="w-full py-10">
                                     <p id="centralCities" class="text-lg font-normal text-white text-center">

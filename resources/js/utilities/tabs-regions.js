@@ -1,22 +1,40 @@
 
-const tabRestoPaisSelector = document.getElementsByClassName("regionCentral")[0];
-const tabRegionCentralSelector = document.getElementsByClassName("restoDelPais")[0];
+const tabRestoPaisSelector = document.getElementsByClassName("regionCentral");
+const tabRegionCentralSelector = document.getElementsByClassName("restoDelPais");
+
+const tabs = document.querySelector(".wrapper");
+const tabButton = document.querySelectorAll(".tab-button");
 
 
-document.getElementsByClassName("regionCentral")[0].addEventListener("click", function (event) {
-    console.log("central");
-    triggerClassesOnRegionCentralSelect();
+tabs.onclick = e => {
+    const id = e.target.dataset.id;
+    if (id) {
+      tabButton.forEach(btn => {
+        btn.classList.remove("border-yellow-600");
+      });
+      e.target.classList.add("border-yellow-600");
 
-});
+    //   contents.forEach(content => {
+    //     content.classList.remove("border-yellow-600");
+    //   });
+    //   const element = document.getElementById(id);
+    //   element.classList.add("border-yellow-600");
+    }
+  }
+// document.getElementsByClassName("regionCentral")[0].addEventListener("click", function (event) {
+//     console.log("central");
+//     triggerClassesOnRegionCentralSelect();
+
+// });
 
 
 
-document.getElementsByClassName("restoDelPais")[0].addEventListener("click", function (event) {
-    console.log("restos");
-    triggerClassesOnRegionRestoSelect();
+// document.getElementsByClassName("restoDelPais")[0].addEventListener("click", function (event) {
+//     console.log("restos");
+//     triggerClassesOnRegionRestoSelect();
 
 
-});
+// });
 
 
 // let regionCentralSelector = () => {
@@ -27,49 +45,49 @@ document.getElementsByClassName("restoDelPais")[0].addEventListener("click", fun
 //     triggerClassesOnRegionSelect();
 // }
 
-function triggerClassesOnRegionCentralSelect() {
+// function triggerClassesOnRegionCentralSelect() {
 
 
-    // const regionRestoPaisPanel = document.querySelector('#regionRestoDelPaisPanel');
-    // const regionCentralPanel = document.querySelector('#regionCentralPanel');
+//     // const regionRestoPaisPanel = document.querySelector('#regionRestoDelPaisPanel');
+//     // const regionCentralPanel = document.querySelector('#regionCentralPanel');
 
-    // const centralCities = document.querySelector('#centralCities');
-    // const restoDelPaisCities= document.querySelector('#restoDelPaisCities');
-
-
-
-    document.querySelector('#regionCentralSelector').classList.toggle(
-        [
-            'border-yellow-600'
-
-            ]
-        );
-
-    document.getElementById("restoDelPaisSelector").classList.remove("border-yellow-600");
-    // regionRestoPaisPanel.classList.toggle('hidden');
-    // regionCentralPanel.classList.toggle('hidden');
-    // regionCentralHidden.classList.toggle('hidden');
-    // restoPaisHidden.classList.toggle('hidden');
-}
-
-function triggerClassesOnRegionRestoSelect() {
+//     // const centralCities = document.querySelector('#centralCities');
+//     // const restoDelPaisCities= document.querySelector('#restoDelPaisCities');
 
 
-    // const regionRestoPaisPanel = document.querySelector('#regionRestoDelPaisPanel');
-    // const regionCentralPanel = document.querySelector('#regionCentralPanel');
 
-    // const centralCities = document.querySelector('#centralCities');
-    // const restoDelPaisCities= document.querySelector('#restoDelPaisCities');
+//     document.querySelector('#regionCentralSelector').classList.toggle(
+//         [
+//             'border-yellow-600'
 
-    document.querySelector('#restoDelPaisSelector').classList.toggle([
+//             ]
+//         );
 
-            'border-yellow-600'
-            ]
-        );
-        document.getElementById("regionCentralSelector").classList.remove("border-yellow-600");
+//     document.getElementById("restoDelPaisSelector").classList.remove("border-yellow-600");
+//     // regionRestoPaisPanel.classList.toggle('hidden');
+//     // regionCentralPanel.classList.toggle('hidden');
+//     // regionCentralHidden.classList.toggle('hidden');
+//     // restoPaisHidden.classList.toggle('hidden');
+// }
 
-    // regionRestoPaisPanel.classList.toggle('hidden');
-    // regionCentralPanel.classList.toggle('hidden');
-    // regionCentralHidden.classList.toggle('hidden');
-    // restoPaisHidden.classList.toggle('hidden');
-}
+// function triggerClassesOnRegionRestoSelect() {
+
+
+//     // const regionRestoPaisPanel = document.querySelector('#regionRestoDelPaisPanel');
+//     // const regionCentralPanel = document.querySelector('#regionCentralPanel');
+
+//     // const centralCities = document.querySelector('#centralCities');
+//     // const restoDelPaisCities= document.querySelector('#restoDelPaisCities');
+
+//     document.querySelector('#restoDelPaisSelector').classList.toggle([
+
+//             'border-yellow-600'
+//             ]
+//         );
+//         document.getElementById("regionCentralSelector").classList.remove("border-yellow-600");
+
+//     // regionRestoPaisPanel.classList.toggle('hidden');
+//     // regionCentralPanel.classList.toggle('hidden');
+//     // regionCentralHidden.classList.toggle('hidden');
+//     // restoPaisHidden.classList.toggle('hidden');
+// }
