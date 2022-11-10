@@ -498,7 +498,7 @@
                                         Peso Final
                                     </p>
                                     <div class="flex items-baseline">
-                                        <div id="librascalculadas" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                        <div id="librasCalculadas" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
                                             1.00
                                         </div>
                                         <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
@@ -511,7 +511,7 @@
                                         Pie cúbico
                                     </p>
                                     <div class="flex items-baseline">
-                                        <div id="piescalculados" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                        <div id="piesCalculados" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
                                             0.00
                                         </div>
                                         <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
@@ -524,7 +524,7 @@
                                         Envío aéreo
                                     </p>
                                     <div class="flex items-baseline">
-                                        <div id="aereocalculado" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                        <div id="aeroCalculado" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
                                             4.10
                                         </div>
                                         <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
@@ -537,7 +537,7 @@
                                         Envío maritimo
                                     </p>
                                     <div class="flex items-baseline">
-                                        <div id="maritimocalculado" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
+                                        <div id="maritimoCalculado" class="text-4xl lg:text-5xl text-gray-700 font-extrabold">
                                             30.00
                                         </div>
                                         <span class="ml-1 text-xl lg:text-2xl font-medium text-yellow-600">
