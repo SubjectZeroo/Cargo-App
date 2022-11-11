@@ -15,7 +15,7 @@
                 </p>
             </div>
             <div class="relative pt-16 pb-32 overflow-hidden">
-                <div class="relative transition transform duration-300 translate-x-0 opacity-100">
+                <div class="relative transition transform duration-300 translate-x-32 opacity-0" data-class-in="translate-x-0 opacity-100" date-class-out="translate-x-32 opacity-0">
                     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                             <div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 relative transition transform duration-300 translate-x-0 opacity-100">
+                <div class="mt-12 relative transition transform duration-300 translate-x-32 opacity-0" data-class-in="translate-x-0 opacity-100" date-class-out="translate-x-32 opacity-0">
                     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                             <div>
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 relative transition transform duration-300 translate-x-0 opacity-100">
+                <div class="mt-12 relative transition transform duration-300 translate-x-32 opacity-0" data-class-in="translate-x-0 opacity-100" date-class-out="translate-x-32 opacity-0">
                     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                             <div>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 relative transition transform duration-300 translate-x-0 opacity-100">
+                <div class="mt-12 relative transition transform duration-300 translate-x-32 opacity-0" data-class-in="translate-x-0 opacity-100" date-class-out="translate-x-32 opacity-0">
                     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                             <div>
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 relative transition transform duration-300 translate-x-0 opacity-100">
+                <div class="mt-12 relative transition transform duration-300 translate-x-32 opacity-0" data-class-in="translate-x-0 opacity-100" date-class-out="translate-x-32 opacity-0">
                     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                             <div>
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 relative transition transform duration-300 translate-x-0 opacity-100">
+                <div class="mt-12 relative transition transform duration-300 translate-x-32 opacity-0" data-class-in="translate-x-0 opacity-100" date-class-out="translate-x-32 opacity-0">
                     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                             <div>
