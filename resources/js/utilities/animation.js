@@ -39,26 +39,25 @@ class Animasection {
      */
     onChange(changes, observer) {
         changes.forEach(change => {
-                console.log(change)
 
 
             // if(typeof change === 'string') {
             //     console.log(arr);
-                // if(str.isIntersecting) {
-                //     /*
-                //      * 'split' turns our data attribute string into an array, and the spread operator (three dots)
-                //      * deconstructs it into the format that we need for manipulating the element's 'classList'
-                //      */
+                if(change.isIntersecting) {
+                    /*
+                     * 'split' turns our data attribute string into an array, and the spread operator (three dots)
+                     * deconstructs it into the format that we need for manipulating the element's 'classList'
+                     */
 
-                //     console.log(str.target)
-                //     str.target.classList.remove(...str.target.getAttribute('data-class-out').split(' '))
-                //     change.target.classList.add(...str.target.getAttribute('data-class-in').split(' '))
-                // }
-                // else {
-                //     console.log(str.target)
-                //     // str.target.classList.remove(...str.target.getAttribute('data-class-in').split(' '))
-                //     // str.target.classList.add(...str.target.getAttribute('data-class-out').split(' '))
-                // }
+
+                    change.target.classList.remove(...change.target.getAttribute('data-class-out').split(' '))
+                    change.target.classList.add(...change.target.getAttribute('data-class-in').split(' '))
+                }
+                else {
+
+                    change.target.classList.remove(...change.target.getAttribute('data-class-in').split(' '))
+                    change.target.classList.add(...change.target.getAttribute('data-class-out').split(' '))
+                }
 
             // }else {
             //     console.log('str is not a string');
