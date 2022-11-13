@@ -1,4 +1,7 @@
 
+// Vanilla
+document.addEventListener('DOMContentLoaded', function() {
+
   let hero_counter = Math.floor(Math.random() * Math.floor(200)) + 300;
   updateCounter(hero_counter);
 
@@ -17,3 +20,4 @@
   }
 
   incrementCount();
+})

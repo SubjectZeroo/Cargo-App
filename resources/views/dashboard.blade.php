@@ -38,7 +38,8 @@
                                     </div>
                                 </div>
                                 <div class="mt-5 flex justify-center sm:mt-0">
-                                    <a href="#" class="flex justify-center items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-gray-100 bg-yellow-600 hover:bg-yellow-500">
+                                    <a href="#"
+                                        class="flex justify-center items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-gray-100 bg-yellow-600 hover:bg-yellow-500">
                                         Mi Perfil
                                     </a>
                                 </div>
@@ -54,7 +55,8 @@
                         <div class="p-6">
                             <div class="w-full flex flex-col space-y-4">
                                 <p class="inline-flex text-gray-700 text-sm font-light">
-                                    A continuación le recordamos la información que requerirá en el momento de enviar su mercancía hasta nuestras oficinas en USA.
+                                    A continuación le recordamos la información que requerirá en el momento de enviar su
+                                    mercancía hasta nuestras oficinas en USA.
                                 </p>
                                 <div class="mx-4 flex flex-col">
                                     <p class="inline-flex text-gray-700 text-sm font-bold">
@@ -115,7 +117,8 @@
                                     </p>
                                 </div>
                                 <p class="inline-flex text-gray-700 text-sm font-light">
-                                    IMPORTANTE: Cuando tu carga maritma no esta debidamente identificada, corres el riesgo de que sea enviada por via aerea, afectando la logistica y valor de tu envio.
+                                    IMPORTANTE: Cuando tu carga maritma no esta debidamente identificada, corres el
+                                    riesgo de que sea enviada por via aerea, afectando la logistica y valor de tu envio.
                                 </p>
                             </div>
                         </div>
@@ -128,12 +131,15 @@
                         <div class="p-6">
                             <div class="flex flex-col justify-between space-y-6">
                                 <div class="w-full">
-                                    <div class="text-gray-700 text-lg tracking-wider font-bold mb-3 pb-2 border-b-2 border-yellow-600 border-opacity-50 w-full">
+                                    <div
+                                        class="text-gray-700 text-lg tracking-wider font-bold mb-3 pb-2 border-b-2 border-yellow-600 border-opacity-50 w-full">
                                         Rastrear Envío
                                     </div>
                                     <form>
-                                        <input type="text" class="bg-gray-100 h-full w-full rounded-md p-4 text-sm" placeholder="Número de tracking">
-                                        <button class="mt-2 px-4 py-2 shadow-sm text-sm font-medium rounded-md text-gray-100 bg-yellow-600 hover:bg-yellow-500 w-full">Buscar</button>
+                                        <input type="text" class="bg-gray-100 h-full w-full rounded-md p-4 text-sm"
+                                            placeholder="Número de tracking">
+                                        <button
+                                            class="mt-2 px-4 py-2 shadow-sm text-sm font-medium rounded-md text-gray-100 bg-yellow-600 hover:bg-yellow-500 w-full">Buscar</button>
                                     </form>
                                 </div>
                             </div>
@@ -143,7 +149,8 @@
                         <div class="p-6">
                             <div class="flex flex-col justify-between space-y-6">
                                 <div class="w-full">
-                                    <div class="text-gray-700 text-lg tracking-wider font-bold mb-3 pb-2 border-b-2 border-yellow-600 border-opacity-50 w-full">
+                                    <div
+                                        class="text-gray-700 text-lg tracking-wider font-bold mb-3 pb-2 border-b-2 border-yellow-600 border-opacity-50 w-full">
                                         Métodos de Pago
                                     </div>
                                     <div class="w-full mb-6 flex flex-col space-y-4">
@@ -179,7 +186,8 @@
                                             </p>
                                             <p class="text-gray-700 text-sm font-light pt-2">
                                                 <strong>NOTA</strong>
-                                                : cualquiera de los 2 correos, se encuentran activos inscritos en Zelle, puede transferir a cualquiera de los 2.
+                                                : cualquiera de los 2 correos, se encuentran activos inscritos en Zelle,
+                                                puede transferir a cualquiera de los 2.
                                             </p>
                                         </div>
                                         <div class="w-full">
@@ -207,7 +215,8 @@
                                                 IMPORTANTE:
                                             </p>
                                             <p class="inline-flex text-gray-700 text-sm font-light text-justify">
-                                                Debe presentar la constancia de depósito o transferencia, en el momento que retire la mercancía o enviarla vía correo a pagoscargoid@gmail.com
+                                                Debe presentar la constancia de depósito o transferencia, en el momento
+                                                que retire la mercancía o enviarla vía correo a pagoscargoid@gmail.com
                                             </p>
                                         </div>
                                     </div>
