@@ -39,17 +39,11 @@ class Animasection {
      */
     onChange(changes, observer) {
         changes.forEach(change => {
-
-
-            // if(typeof change === 'string') {
-            //     console.log(arr);
                 if(change.isIntersecting) {
                     /*
                      * 'split' turns our data attribute string into an array, and the spread operator (three dots)
                      * deconstructs it into the format that we need for manipulating the element's 'classList'
                      */
-
-
                     change.target.classList.remove(...change.target.getAttribute('data-class-out').split(' '))
                     change.target.classList.add(...change.target.getAttribute('data-class-in').split(' '))
                 }
@@ -58,10 +52,6 @@ class Animasection {
                     change.target.classList.remove(...change.target.getAttribute('data-class-in').split(' '))
                     change.target.classList.add(...change.target.getAttribute('data-class-out').split(' '))
                 }
-
-            // }else {
-            //     console.log('str is not a string');
-            // }
 
         })
     }
