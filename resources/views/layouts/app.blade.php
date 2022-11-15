@@ -31,7 +31,7 @@
 
     <!-- Page Content -->
     <main class="z-40">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-white">
             {{ $slot }}
         </div>
     </main>

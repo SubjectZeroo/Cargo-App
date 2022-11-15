@@ -91,7 +91,7 @@
         </form>
     </x-auth-card> --}}
     <x-navbar></x-navbar>
-    <section class="bg-white ">
+    <section>
         <div class="flex justify-center min-h-screen">
             <div class="hidden bg-cover lg:block lg:w-2/5"
                 style="background-image: url('https://images.pexels.com/photos/6169659/pexels-photo-6169659.jpeg?auto=compress&cs=tinysrgb&w=600')">

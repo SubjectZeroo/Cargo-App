@@ -122,11 +122,11 @@
         </div>
         <div class="mt-8 border-t border-gray-700 pt-8 flex items-center justify-center">
             <p class="text-base text-gray-400 md:mt-0 md:order-1 text-center">
-                © 2010 - 2022 One Way Cargo
+                © 2010 - 2022 Cargo APP
                 <span class="px-2">|</span>
-                Inversiones JRG 89 C.A.
+                D2311233 C.A.
                 <span class="px-2">|</span>
-                RIF: J-12312412-5
+                RIF: J-321321
             </p>
         </div>
         <div class="mt-4 pt-4 flex items-center justify-center">

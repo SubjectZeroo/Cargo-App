@@ -17,9 +17,11 @@
 </head>
 
 <body>
-    {{-- <div class="font-sans text-gray-900 antialiased"> --}}
-    {{ $slot }}
-    {{-- </div> --}}
+    <main class="z-40">
+        <div class="min-h-screen bg-white">
+            {{ $slot }}
+        </div>
+    </main>
 </body>
 
 </html>
