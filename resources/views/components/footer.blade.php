@@ -12,12 +12,13 @@
                         </h3>
                         <ul class="mt-4 space-y-2">
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('servicios') }}" class="text-base text-gray-300 hover:text-white">
                                     Servicios
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('tarifas') }}#calculadora"
+                                    class="text-base text-gray-300 hover:text-white">
                                     Calculadora de envíos
                                 </a>
                             </li>
@@ -27,12 +28,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('tarifas') }}" class="text-base text-gray-300 hover:text-white">
                                     ¿Cómo comprar?
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('contacto') }}" class="text-base text-gray-300 hover:text-white">
                                     Contacto
                                 </a>
                             </li>
@@ -44,27 +45,27 @@
                         </h3>
                         <ul class="mt-4 space-y-2">
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('servicios') }}" class="text-base text-gray-300 hover:text-white">
                                     Condiciones
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('tarifas') }}" class="text-base text-gray-300 hover:text-white">
                                     Tarifas y servicios
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('login') }}" class="text-base text-gray-300 hover:text-white">
                                     ¿Cómo rastrear tu envío?
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('servicios') }}" class="text-base text-gray-300 hover:text-white">
                                     Métodos de entrega
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="{{ route('login') }}" class="text-base text-gray-300 hover:text-white">
                                     Formas de pago
                                 </a>
                             </li>
@@ -122,11 +123,11 @@
         </div>
         <div class="mt-8 border-t border-gray-700 pt-8 flex items-center justify-center">
             <p class="text-base text-gray-400 md:mt-0 md:order-1 text-center">
-                © 2010 - 2022 One Way Cargo
+                © 2010 - 2022 CargoAPP
                 <span class="px-2">|</span>
-                Inversiones JRG 89 C.A.
+                Compania anonima
                 <span class="px-2">|</span>
-                RIF: J-12312412-5
+                RIF: J-321123321
             </p>
         </div>
         <div class="mt-4 pt-4 flex items-center justify-center">
@@ -134,9 +135,10 @@
                 Cargo App está protegido por reCAPTCHA.
                 <br>
                 Las
-                <a href="#" class="text-yellow-700 hover:text-yellow-600">Políticas de Privacidad</a>
+                <a href="https://policies.google.com/privacy" class="text-yellow-700 hover:text-yellow-600">Políticas de
+                    Privacidad</a>
                 y
-                <a href="" class="text-yellow-700 hover:text-yellow-600">
+                <a href="https://policies.google.com/terms" class="text-yellow-700 hover:text-yellow-600">
                     Condiciones del Servicio
                 </a>
                 de Google aplican.
