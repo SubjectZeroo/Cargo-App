@@ -1,4 +1,33 @@
 <x-guest-layout>
+    <script type="text/javascript">
+        function callbackThen(response) {
+
+            // read HTTP status
+
+            console.log(response.status);
+
+            // read Promise object
+
+            response.json().then(function(data) {
+
+                console.log(data);
+
+            });
+
+        }
+
+        function callbackCatch(error) {
+
+            console.error('Error:', error)
+
+        }
+    </script>
+
+    {!! htmlScriptTagJsApi([
+        'callback_then' => 'callbackThen',
+
+        'callback_catch' => 'callbackCatch',
+    ]) !!}
     <div class="h-screen w-full flex flex-shrink-0 justify-center md:items-end overflow-hidden">
         <div class="h-screen w-full flex flex-shrink-0 justify-center md:items-end overflow-hidden">
             <div class="h-screen absolute z-10 inset-0 bg-gradient-to-b from-gray-700 via-blue-900 to-gray-700"
@@ -498,16 +527,20 @@
                                 <p class="mt-6 mx-auto max-w-2xl text-lg text-yellow-200">
                                     Entra a tu CARGOID y no pierdas de vista cada detalle</p>
                             </div>
-                            <form action="" class="mt-12 sm:mx-auto sm:max-w-3xl sm:flex">
+                            <form method="POST" action="{{ route('login') }}"
+                                class="mt-12 sm:mx-auto sm:max-w-3xl sm:flex">
+                                @csrf
                                 <div class="min-w-0 flex-1">
                                     <label for="" class="sr-only">Email</label>
-                                    <input placeholder="Email" type="text"
-                                        class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-xl focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-yellow-600">
+                                    <x-text-input id="email" placeholder="Email" type="email" name="email"
+                                        :value="old('email')"
+                                        class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-xl focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-yellow-600" />
                                 </div>
                                 <div class="min-w-0 flex-1 mt-4 sm:mt-0 sm:ml-3">
                                     <label for="" class="sr-only">Contraseña</label>
-                                    <input placeholder="Contraseña" type="password"
-                                        class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-xl focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-yellow-600">
+                                    <x-text-input id="password" placeholder="Password" type="password"
+                                        name="password"
+                                        class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-xl focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-yellow-600" />
                                 </div>
                                 <div class="mt-4 sm:mt-0 sm:ml-3">
                                     <input value="Iniciar sesión" type="submit"
