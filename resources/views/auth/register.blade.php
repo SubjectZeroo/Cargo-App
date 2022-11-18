@@ -211,7 +211,7 @@
                             </x-primary-button> --}}
                         </div>
 
-                        <button type="button"
+                        <button type="submit"
                             class="mt-8 g-recaptcha group relative w-full flex justify-center py-2 px-4 border border-transparent text-lg font-medium rounded-md text-white tracking-wider bg-yellow-600 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 shadow-md">
                             {{ __('Registrarse') }}
                         </button>
