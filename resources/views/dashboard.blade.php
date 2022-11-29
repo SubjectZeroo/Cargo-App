@@ -135,11 +135,11 @@
                                         class="text-gray-700 text-lg tracking-wider font-bold mb-3 pb-2 border-b-2 border-yellow-600 border-opacity-50 w-full">
                                         Rastrear Envío
                                     </div>
-                                    <form>
+                                    <form id="form_tracking">
                                         <input type="text" class="bg-gray-100 h-full w-full rounded-md p-4 text-sm"
-                                            placeholder="Número de tracking">
+                                            placeholder="Número de tracking" id="tracking">
                                         <button
-                                            class="mt-2 px-4 py-2 shadow-sm text-sm font-medium rounded-md text-gray-100 bg-yellow-600 hover:bg-yellow-500 w-full">Buscar</button>
+                                            class="openModalTracking mt-2 px-4 py-2 shadow-sm text-sm font-medium rounded-md text-gray-100 bg-yellow-600 hover:bg-yellow-500 w-full">Buscar</button>
                                     </form>
                                 </div>
                             </div>
@@ -285,6 +285,72 @@
                                     </label>
                                     <div class="mt-1">
                                         <p id="tracking_dimensiones" class="font-thin">jafehtsubjectzero@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalTracking" class="fixed z-10 inset-0 overflow-y-auto hidden">
+        <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">​</span>
+            <div class="inline-block bg-gray-100 rounded-xl text-left overflow-hidden shadow-xl transform transition-all sm:my-8 align-middle sm:max-w-lg sm:w-full p-6"
+                role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                <div class="bg-gray-100 p-5">
+                    <div class="sm:mx-auto sm:w-full flex flex-col items-center">
+                        <div
+                            class="closeModalTracking flex self-end -mr-8 -mt-8 cursor-pointer text-gray-800 transition transform ease-in-out hover:scale-110 hover:text-yellow-600">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="mt-6 text-center text-2xl font-bold text-gray-800">
+                            Detalles del Tracking
+                        </h2>
+                    </div>
+                    <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+                        <div class="sm:px-10">
+                            <div class="space-y-4 text-center">
+                                <div>
+                                    <label for="nombre" class="block text-sm font-medium text-gray-800 font-bold">
+                                        Fecha llegada USA
+                                    </label>
+                                    <div class="mt-1">
+                                        <p id="tracking_fecha_llegada_usa" class="font-thin"></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="apellido" class="block text-sm font-medium text-gray-800 font-bold">
+                                        Fecha llegada Valencia
+                                    </label>
+                                    <div class="mt-1">
+                                        <p id="tracking_fecha_llegada_venezuela" class="font-thin"></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-800 font-bold">
+                                        Peso
+                                    </label>
+                                    <div class="mt-1">
+                                        <p id="tracking_peso" class="font-thin"></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="dimensiones"
+                                        class="block text-sm font-medium text-gray-800 font-bold">
+                                        Dimensiones
+                                    </label>
+                                    <div class="mt-1">
+                                        <p id="tracking_dimensiones" class="font-thin"></p>
                                     </div>
                                 </div>
                             </div>

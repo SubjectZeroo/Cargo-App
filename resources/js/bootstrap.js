@@ -33,10 +33,11 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     enabledTransports: ['ws', 'wss'],
 // });
 
-import './utilities/tabs-regions';
-import './utilities/menu-btn-toggle';
-import './utilities/modal-perfil';
-import './utilities/counter-hero';
-import './utilities/counter-services';
-import './utilities/calculadora';
-import './utilities/animation';
+// import './utilities/tabs-regions';
+// import './utilities/menu-btn-toggle';
+// import './utilities/modal-perfil';
+import './utilities/modal-tracking';
+// import './utilities/counter-hero';
+// import './utilities/counter-services';
+// import './utilities/calculadora';
+// import './utilities/animation';
