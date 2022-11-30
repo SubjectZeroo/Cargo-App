@@ -33,7 +33,7 @@
                                             {{ Auth::user()->name }}
                                         </p>
                                         <p class="text-sm font-light text-gray-700">
-                                            OneWayID:
+                                            CargoID:
                                         </p>
                                     </div>
                                 </div>
@@ -264,7 +264,7 @@
                                 </div>
                                 <div>
                                     <label for="apellido" class="block text-sm font-medium text-gray-800 font-bold">
-                                        Onewayid
+                                        CargoID
                                     </label>
                                     <div class="mt-1">
                                         <p id="tracking_fecha_llegada_venezuela" class="font-thin">JRG566781</p>
