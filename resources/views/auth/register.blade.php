@@ -162,7 +162,9 @@
                                     class="bform-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-yellow-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                     required>
                                     <option value="">Escoge tu ciudad</option>
-                                    <option value="1">Valencia</option>
+                                    @foreach ($states as $state)
+                                        <option value="{{ $state->id }}"> {{ $state->name }} </option>
+                                    @endforeach
                                 </select>
                             </div>
                             <!-- direction -->
